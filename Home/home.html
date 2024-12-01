@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<!-- Font Awesome CDN Link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--flaticon -->
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+<!-- Looties Player-->
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
+
+
+
+</head>
+<body>
+    <div class="bubbles">
+        <img src="bubble.png" alt="">
+        <img src="bubble.png" alt="">
+        <img src="bubble.png" alt="">
+        <img src="bubble.png" alt="">
+        <img src="bubble.png" alt="">
+        <img src="bubble.png" alt="">
+        <img src="bubble.png" alt="">
+    </div>
+
+    <header id="header">
+        <div class="logo">
+            <a href="../Home/home.html"><img src="logo.png" alt="Logo"></a>
+          </div>
+        <nav>
+            <a href="../Home/home.html">Home</a>
+            <a href="../Shop/index.html">Shop</a>
+            <a href="../About us/team.html">About us</a>
+            <a href="../Gallery/gallery.html">Gallery</a>
+
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="../Shop/cart.html" class="fas fa-shopping-cart"></a>
+            <a href="../User-Prof/User_prof.html" class="fas fa-user"></a>
+        </div>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="Micons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+        <ul class="mobile-menu">
+            <li><a href="/home">Home</a></li>
+            <li><a href="/products">Products</a></li>
+            <li><a href="/about">About</a></li>
+            <li id="login"><a href="/login" >Login</a></li>
+            <li id="signup"><a href="/signup">Signup</a></li>
+          </ul>
+    
+    
+           
+    </header>
+
+
+    <!-- Banner Start Here-->
+    <section class="hero" id="hero">
+        <div class="container">
+            <h3 class="h3c">Harnessing the Blue Heartbeat</h3>
+            <p class="herosub">Embark on a voyage to protect our oceans and marine life. Join us in championing sustainability with United Nations Goal 14. Together, we'll preserve these vital ecosystems for a brighter, more resilient future.</p>
+            <a href="#" class="btn" id="btn1"><i class="fa fa-info-circle"></i> More Info</a>
+            <a href="../Shop/index.html" class="btn" id="btn"><i class="fa fa-shopping-basket"></i>  Shop Products</a>
+        </div>
+        
+        
+
+    </section>
+     <!--Banner End Here-->
+
+     <section class="section3">
+       <Div>
+        <Div class="secanimation"> 
+            <h1>Why We Need to Save Our Oceans</h1>
+            <dotlottie-player src="https://lottie.host/9da23f42-01b8-4d79-adf7-e39e3287d19f/2gVaYRubMS.json" background="transparent" speed="1" style="width: 1000px; height: 1000px;" loop autoplay></dotlottie-player>
+        </Div>
+       <div class="boxes">
+        <div class="box">
+            <h3>Biodiversity Preservation</h3>
+            <p>Protecting marine life ensures the survival of diverse ecosystems.</p>
+       </div>
+       <div class="box">
+            <h3>Food Security</h3>
+            <p>Proper management of marine resources ensures a stable food supply for present and future generations.</p>
+       </div>
+       <div class="box">
+            <h3>Economic Benefits</h3>
+            <p>Sustainable ocean use supports industries like fisheries and tourism, contributing to economic growth.</p>
+       </div>
+       <div class="box">
+        <h3>Global Connectivity</h3>
+        <p>Healthy oceans facilitate global trade and transportation, connecting distant regions.</p>
+        </div>
+       </div>
+    </Div>
+
+     </section>
+
+      <!--Section 2 Start Here-->
+    <section class="sec2">
+        <h1 class="sec2mainh1">Strategies for Sustainable Marine Conservation</h1>
+       <div class="cards">
+        <div class="card-in">
+            <i class="fa-solid fa-fish"></i>
+            <h1>Implement Sustainable Fishing Practices</h1>
+            <p>Encourage the use of sustainable fishing methods such as selective fishing gears, avoiding overfishing, respecting fishing quotas, and promoting the protection of critical marine habitats.</p>
+        </div>
+        <div class="card-in">
+            <i class="fa-solid fa-unlock"></i>
+            <h1>Promote Marine Protected Areas</h1>
+            <p>Establish and effectively manage MPAs to conserve marine biodiversity, protect habitats, and allow for the recovery of depleted fish stocks.</p>
+        </div>
+        <div class="card-in">
+            <i class="fa-solid fa-smog"></i>
+            <h1>Reduce Pollution</h1>
+            <p>Implement measures to reduce pollution from land-based sources, including plastic waste, agricultural runoff, sewage, and industrial discharge, through improved waste management, recycling, and wastewater treatment.</p>
+        </div>
+        <div class="card-in">
+            <i class="fa-solid fa-leaf"></i>
+            <h1>Protect Coastal Ecosystems</h1>
+            <p>Preserve and restore coastal ecosystems such as mangroves, salt marshes, and coral reefs, which provide essential habitats, protect shorelines from erosion, and support biodiversity.</p>
+        </div>
+       </div>
+
+       
+        
+    </section>
+    <!--Section 2  End Here-->
+
+    <!-- Container for the bubble animation -->
+   
+
+    <section class="newsletter">
+        <div class="newsletteranimation">
+            <dotlottie-player src="https://lottie.host/f6985ebc-a0de-4706-93da-ae866aefcb3a/6jxwdHkUZL.json" background="transparent" speed="1" style="width: 800px; height: 800px;" loop autoplay></dotlottie-player>
+        </div>
+        <div class="newsletterform">
+            <h1>Dive into Ocean Care</h1>
+            <h2>Subscribe Now for a Sea of Solutions!</h2>
+            <form id="newsletterForm">
+            <input type="text" id="firstName" class="input-field1" placeholder="First Name" required>
+            <input type="text" id="lastName" class="input-field1" placeholder="Last Name" required>
+            <input type="email" id="email" class="input-field" placeholder="Enter your email" required><br>
+            <button type="submit" class="submit-btn">Subscribe</button>
+            </form>
+        <div id="successMessage" class="success-message"></div>
+        <div id="errorMessage" class="error-message"></div>
+
+   
+        </div>
+    </section>
+
+    <footer>
+    
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul><li><a href="../Home/home.html">Home</a></li>
+                    <li><a href="../Shop/index.html">Shop</a></li>
+                    <li><a href="../Sitemap/sitemap.html">Site-Map</a></li>
+                    <li><a href="../Blog/blog.html">Blog</a></li>
+                    <li><a href="../Feedback/feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+
+    <div class="footerBottom">
+        <p>Copyright &copy;2024  Designed by <span class="designerGroup">Group 11 | Group 8 </span></p>
+     </div>
+
+
+   
+    <script src="home.js"></script>
+</body>
+</html>
